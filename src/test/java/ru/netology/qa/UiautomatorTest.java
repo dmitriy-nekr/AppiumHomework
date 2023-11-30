@@ -32,7 +32,7 @@ public class UiautomatorTest {
     }
 
     @Test
-    public void sampleTest() {
+    public void emptyInputTest() {
         var el0 = driver.findElementById("ru.netology.testing.uiautomator:id/textToBeChanged").getText();
         var el1 = driver.findElementById("ru.netology.testing.uiautomator:id/userInput");
         el1.sendKeys(" ");
@@ -40,6 +40,11 @@ public class UiautomatorTest {
         el2.click();
         var el3 = driver.findElementById("ru.netology.testing.uiautomator:id/textToBeChanged").getText();
         Assertions.assertEquals(el0, el3);
+
+    }
+    @Test
+    public void textNewActivityTest() {
+
         var el4 = driver.findElementById("ru.netology.testing.uiautomator:id/userInput");
         el4.sendKeys("netology");
         var el5 = driver.findElementById("ru.netology.testing.uiautomator:id/buttonActivity");

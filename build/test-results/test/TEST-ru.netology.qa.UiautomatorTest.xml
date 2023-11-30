@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.qa.UiautomatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-11-28T10:54:42" hostname="LAPTOP-8TMVD82P" time="12.838">
+<testsuite name="ru.netology.qa.UiautomatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-11-30T07:59:39" hostname="LAPTOP-8TMVD82P" time="21.845">
   <properties/>
-  <testcase name="sampleTest()" classname="ru.netology.qa.UiautomatorTest" time="12.838"/>
+  <testcase name="textNewActivityTest()" classname="ru.netology.qa.UiautomatorTest" time="11.501"/>
+  <testcase name="emptyInputTest()" classname="ru.netology.qa.UiautomatorTest" time="10.343"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[нояб. 28, 2023 5:54:49 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <system-err><![CDATA[нояб. 30, 2023 2:59:47 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+нояб. 30, 2023 2:59:57 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
